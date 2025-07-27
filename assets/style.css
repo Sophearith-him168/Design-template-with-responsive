@@ -441,7 +441,7 @@ nav a:hover {
 }
 .clients-container img {
   height: 60px;
-  opacity: 0.3;
+  opacity: 0.8;
   transition: opacity 0.2s;
   filter: grayscale(100%);
   cursor: pointer;
@@ -486,11 +486,12 @@ footer {
 
 @media (max-width: 1024px) {
   .container {
-    max-width: 98vw;
+    max-width: 100%;
     padding: 0 16px;
   }
   .navbar {
     padding: 20px;
+    margin: 20px;
   }
 
   .main-header {
@@ -514,6 +515,12 @@ footer {
   }
   .clients-container {
     gap: 40px;
+  }
+  .footer {
+    padding: 24px 0;
+  }
+  .footer-container .footer-left {
+    margin-left: -350px;
   }
 }
 @media (max-width: 820px) {
